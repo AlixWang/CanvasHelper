@@ -5,9 +5,9 @@ import common from 'rollup-plugin-commonjs'
 export default {
     input: 'src/index.js',
     output: {
-        name: 'bundle.js',
-        dir: 'dist',
-        format: 'umd'
+        name: 'canvasHandle',
+        dir: 'lib',
+        format: 'umd',
     },
     plugins: [
         resolve(),
