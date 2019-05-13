@@ -1,4 +1,4 @@
-import {ObjType} from './utils/index'
+import { ObjType } from './utils/index'
 export default class canvasHandle  {
     constructor(ctx) {
         if(ObjType(ctx) !== 'CanvasRenderingContext2D') {
